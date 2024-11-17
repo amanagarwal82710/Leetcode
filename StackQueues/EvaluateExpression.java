@@ -1,4 +1,4 @@
-package leetcodeProblems.Stack;
+package leetcodeProblems.StackQueues;
 
 import java.util.Objects;
 import java.util.Stack;
