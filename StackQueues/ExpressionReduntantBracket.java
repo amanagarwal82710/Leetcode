@@ -6,7 +6,7 @@ public class ExpressionReduntantBracket {
     public static boolean check(String s){
         Stack<Character> st = new Stack<>();
         for(char c: s.toCharArray()){
-            if(c == '('){
+            if(c == ')'){
                 char top = st.pop();
                 boolean flag = true;
                 while (top != '('){
