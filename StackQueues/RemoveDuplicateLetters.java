@@ -27,6 +27,7 @@ public class RemoveDuplicateLetters {
             }
 
             set.add(c);
+
             newS.append(c);
         }
 
