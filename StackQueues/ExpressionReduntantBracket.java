@@ -9,7 +9,7 @@ public class ExpressionReduntantBracket {
             if(c == ')'){
                 char top = st.pop();
                 boolean flag = true;
-                while (top != '('){
+                while (!st.empty() && top != '('){
                     if(top == '+' || top == '-' || top == '*' || top == '/'){
                         flag = false;
                     }
