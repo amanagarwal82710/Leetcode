@@ -53,21 +53,7 @@ public class LongestValidParanthesis {
         int n = s.length();
         stack.push(-1);
         int max = 0;
-//        int length = 0;
-//        for(char c: s.toCharArray()){
-//            if(c == '('){
-//                stack.push(c);
-//            }
-//
-//            else {
-//                if(!stack.isEmpty() && stack.pop() == ')'){
-//                    length += 2;
-//                }
-//            }
-//        }
-//        return length;
-
-        for(int i=0; i<s.length(); i++){
+        for(int i=0; i<n; i++){
             if(s.charAt(i) == '('){
                 stack.push(i);
             }
