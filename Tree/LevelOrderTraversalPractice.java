@@ -8,7 +8,6 @@ public class LevelOrderTraversalPractice {
         if(root == null){
             return  Collections.emptyList();
         }
-
         Queue<TreeNode> queue = new LinkedList<>();
         List<List<Integer>> listOfList = new ArrayList<>();
 
